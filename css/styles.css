@@ -62,9 +62,8 @@ section{
 }
 
 .about-p {
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+  
+    /* text-align: justify; */
     padding: 0 120px;
     line-height: 145%;
 
