@@ -11,21 +11,6 @@ html,body{
     font-size: 20px;
 }
 
-
-/*
-Heading
-*/
-.title-header {
-    height: 15vh;
-}
-
-/* 
-Reusable Components
-*/
-.img-header {
-    height: 85vh;
-}
-
 h1 {
 
 text-align: center;
@@ -46,5 +31,21 @@ h4 {
     text-align: center;
     font-weight: 200;
     font-size: 90%;
-    
+
 }
+
+.white-header {
+
+    height: 20vh;
+    background-color: #3ee;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-header {
+    height: 80vh;
+}
+
