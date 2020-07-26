@@ -71,10 +71,15 @@ section{
 }
 
 .prof-pic {
+    margin: 0 auto;
     height: 200px;
     width: 200px;
     background-image: url('https://media-exp1.licdn.com/dms/image/C5603AQGPGQAe6B9wbQ/profile-displayphoto-shrink_200_200/0?e=1600905600&v=beta&t=6zjm3VHhQMTkZgZyo83yyuJ9-gHg-22TaZR2UhyCoEQ');
     background-size: cover;
     border-radius: 50%;
     overflow: hidden;
+}
+
+.sized-box {
+    height: 20px;
 }
