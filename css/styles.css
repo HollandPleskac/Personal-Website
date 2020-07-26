@@ -48,8 +48,8 @@ h4 {
 .img-header {
     height: 80vh;
 
-    background-image: url('../img/background-img-city.jpg');
+    background-image: url('../img/architecture-768432_1920.jpg');
     background-size: cover;
-    background-position: fixed;
+    background-attachment: fixed;
 }
 
