@@ -84,3 +84,7 @@ section{
 .sized-box {
     height: 20px;
 }
+
+.skills-section {
+    background-color: rgb(245, 245, 245);
+}
