@@ -34,7 +34,7 @@ h4 {
 
 }
 
-.white-header {
+.title-header {
 
     height: 20vh;
     background-color: #3ee;
@@ -47,5 +47,9 @@ h4 {
 
 .img-header {
     height: 80vh;
+
+    background-image: url('../img/background-img-city.jpg');
+    background-size: cover;
+    background-position: fixed;
 }
 
