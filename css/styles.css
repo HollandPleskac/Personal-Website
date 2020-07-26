@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: #FFF;
+    columns: #555;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+/*
+Heading
+*/
+.title-header {
+    height: 15vh;
+}
+
+/* 
+Reusable Components
+*/
+.img-header {
+    height: 85vh;
+}
+
+h1 {
+
+text-align: center;
+font-family: 'Arial';
+font-weight: 300;
+color: #000;
+letter-spacing: 1px;
+word-spacing: 4px;
+text-transform: uppercase;
+font-size: 140%;
+padding-bottom: 10px;
+
+
+
+}
+
+h4 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 90%;
+    
+}
