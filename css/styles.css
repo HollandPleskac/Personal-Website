@@ -35,6 +35,7 @@ h4 {
     text-align: center;
     font-weight: 200;
     font-size: 90%;
+    /* text-transform: uppercase; */
 
 }
 
@@ -87,4 +88,52 @@ section{
 
 .skills-section {
     background-color: rgb(245, 245, 245);
+}
+
+.skills-grid {
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.general {
+    /* background-color: lightblue; */
+    
+}
+
+.languages {
+    /* background-color: lightgreen; */
+    
+}
+
+.frameworks {
+    /* background-color: lightcoral; */
+}
+
+.tools {
+    /* background-color: burlywood; */
+
+}
+
+.soft-skills {
+    /* background-color: red; */
+
+}
+
+.other {
+    /* background-color: blue; */
+
+}
+
+.skill-icon {
+    margin-top: 15px;
+    margin-left: 15px;
+    float: left;
+    
+}
+
+.skill-text{
+    margin-top: 30px;
+    margin-left: 90px;
 }
