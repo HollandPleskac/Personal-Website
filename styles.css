@@ -1,0 +1,43 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.title-page {
+    height: 100vh;
+    background-image: url("https://spacenews.com/wp-content/uploads/2018/05/24359364107_152b0152ff_k.jpg");
+    background-size: cover;
+}
+
+.title {
+    position: relative;
+    left: 24vh;
+    top: 35vh;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    font-weight: 100;
+    color: white;
+
+}
+
+.facts {
+    color: white;
+    position: relative;
+    left: 12vw;
+    top: 42.5vh;
+}
+
+.facts ul li {
+    list-style-type: none;
+    margin-bottom: 30px;
+    font-family: "Lato",sans-serif;
+    letter-spacing: 3px;
+    font-weight: 200;
+    font-size: 17.5px;
+}
