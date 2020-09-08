@@ -4,40 +4,91 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow: hidden;
+}
+
+
+/*
+            Reusable Elements
+*/
+
+h1 {
+    font-size: 80px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    font-weight: 300;
+    color: white;
+
+}
+
+
+
+/*
+            Navigation
+*/
+
+.header-icon {
+    color: white;
+    margin-top: 30px;
+    margin-left: 24vh;
+    font-size: 50px;
+}
+
+.main-nav {
+    margin-top: 32px;
+    margin-right:250px;
+    float: right;
+}
+
+.main-nav li {
+    color: white;
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+.main-nav li a {
+    color: white;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-decoration:none;
+}
+
+
+/*
+            Title Page
+*/
+
 .title-page {
     height: 100vh;
-    background-image: url("https://spacenews.com/wp-content/uploads/2018/05/24359364107_152b0152ff_k.jpg");
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.4)), url("https://3.bp.blogspot.com/-yAVSW6uusAk/Vzwrlbj58EI/AAAAAAAArVE/F5b9jSMDVUcvwkPDZU5DQI5y2JEwJX2XQCHM/s1600/hd-wallpapers-space-real-hd-wallpapers-v.jpg");
     background-size: cover;
 }
 
 .title {
     position: relative;
     left: 24vh;
-    top: 35vh;
-}
-
-h1 {
-    font-size: 60px;
-    font-family: 'Lato', sans-serif;
-    letter-spacing: 3px;
-    word-spacing: 2px;
-    font-weight: 100;
-    color: white;
-
+    top: 22vh;
 }
 
 .facts {
     color: white;
     position: relative;
     left: 12vw;
-    top: 42.5vh;
+    top: 32vh;
 }
 
 .facts ul li {
     list-style-type: none;
     margin-bottom: 30px;
     font-family: "Lato",sans-serif;
-    letter-spacing: 3px;
-    font-weight: 200;
-    font-size: 17.5px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-weight: 300;
+    font-size: 24.25px;
 }
+
+
