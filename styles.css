@@ -5,7 +5,7 @@
 }
 
 html {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 
@@ -21,6 +21,10 @@ h1 {
     font-weight: 300;
     color: white;
 
+}
+
+section {
+    padding: 80px 0;
 }
 
 
